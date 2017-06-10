@@ -4,7 +4,7 @@
 
 Bilingual highly motivated front-end web developer with a background in business marketing, and experience in designing and creating a different types of web applications. Adept with using a variety of full stack development tools, seeking a position as Junior Web Developer to add value to your organization.
 
-**You can see my portfolio here: https://shielded-taiga-60049.herokuapp.com/**
+**You can see my portfolio here: https://windsor-portfolio.herokuapp.com/**
 
 
 ## Technical Skills
