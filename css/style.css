@@ -1,0 +1,84 @@
+p {
+	font-size: 16px;
+	text-align: justify;
+}
+
+a {
+	color: white;
+	font-size: 16px;
+}
+
+li {
+	margin-right: 20px;
+}
+
+h2 {
+	color: white;
+}
+
+.links {
+	color: #1995dc;
+}
+
+.center-pills {
+	color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+	padding-right: 700px;
+	font-size: 30px;
+}
+
+.footer {
+	background-color: #1995dc;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	padding: 16px;
+	margin-top: 20px;
+}
+
+.look {
+	text-decoration: none;
+	color: #1995dc;
+}
+
+hr {
+	color: #1995dc;
+}
+
+.socialbuttons {
+	color: #1995dc;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.well {
+	border-color: #1995dc;
+	border-width: 1.5px;
+	background: white;
+}
+
+.contact {
+	color: #1995dc;
+	font-family: arial;
+	font-size: 16px;
+	
+}
+
+img-rounded {
+	align-items: left;
+}
+
+img {
+	align-items: left;
+}
+
+table {
+	border-spacing: 60px;
+	border: 20px;
+}
