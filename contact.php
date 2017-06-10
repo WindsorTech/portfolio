@@ -1,14 +1,14 @@
 <?php
+
+require 'vendor/autoload.php';
+
+
 if( isset($_POST['n']) && isset($_POST['e']) && isset($_POST['m']) ){
     $n = $_POST['n']; // HINT: use preg_replace() to filter the data
     $e = $_POST['e'];
     $m = nl2br($_POST['m']);
     $to = "windsorjunior@hotmail.com"; 
-
-    $from = "app70392248@heroku.com"; 
-    //Server Mail ID  "info@xyz.com"
-    //example : domain name www.xyz.com with email id info@xyz.com
-
+    $from = $e;
     $subject = 'Contact Form Message';
     $message = '<b>Name:</b> '.$n.' <br><b>Email:</b> '.$e.' <p>'.$m.'</p>';
     $headers = "From: $from\n";
