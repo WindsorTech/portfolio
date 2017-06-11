@@ -2,22 +2,37 @@
 
 require 'vendor/autoload.php';
 
+// If you are not using Composer (recommended)
+// require("path/to/sendgrid-php/sendgrid-php.php");
 
-if( isset($_POST['n']) && isset($_POST['e']) && isset($_POST['m']) ){
-    $n = $_POST['n']; // HINT: use preg_replace() to filter the data
-    $e = $_POST['e'];
-    $m = nl2br($_POST['m']);
-    $to = "windsorjunior@hotmail.com"; 
-    $from = $e;
-    $subject = 'Contact Form Message';
-    $message = '<b>Name:</b> '.$n.' <br><b>Email:</b> '.$e.' <p>'.$m.'</p>';
-    $headers = "From: $from\n";
-    $headers .= "MIME-Version: 1.0\n";
-    $headers .= "Content-type: text/html; charset=iso-8859-1\n";
-    if( mail($to, $subject, $message, $headers) ){
-        echo "success";
-    } else {
-        echo "The server failed to send the message. Please try again later.";
+$request_body = json_decode('{
+  "personalizations": [
+    {
+      "to": [
+        {
+          "email": "windsorjunior@example.com"
+        }
+      ],
+      "subject": "Hello World from the SendGrid PHP Library!"
     }
-}
+  ],
+  "from": {
+    "email": "test@example.com"
+  },
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "Hello, Email!"
+    }
+  ]
+}');
+
+$apiKey = getenv('SG.OBX3eOmgT7iDsunQJc4c4g.BUbYF7Zk3miHG9botPsjXdYVhT7DyHk2ep8Tw5W3a');
+$sg = new \SendGrid($apiKey);
+
+$response = $sg->client->mail()->send()->post($request_body);
+echo $response->statusCode();
+echo $response->body();
+echo $response->headers();
+
 ?>
