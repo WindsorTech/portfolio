@@ -9,11 +9,13 @@ $message = $_POST['message'];
 
 /*Content*/
 $from = new SendGrid\Email($name, 'gotripps@gmail.com');
-$subject = "Email from Windsor Tech";
+$subject = "Contact Form Portfolio";
 $to = new SendGrid\Email("Windsor", "windsorjunior@hotmail.com");
 $content = new SendGrid\Content("text/html", "
 	Email: {$email}<br>
+	<br>
 	Name: {$name}<br>
+	<br>
 	Message: {$message}
 	");
 
