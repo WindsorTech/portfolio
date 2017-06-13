@@ -29,8 +29,8 @@ $response = $sg->client->mail()->send()->post($mail);
 ?>
 
 <!--Print the response-->
-<pre>
+
     <?php
     echo 'Thank You Mannn'
     ?>
-</pre>
+
