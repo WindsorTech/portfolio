@@ -8,10 +8,14 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 /*Content*/
-$from = new SendGrid\Email($name, $email);
+$from = new SendGrid\Email($name, 'gotripps@gmail.com');
 $subject = "Email from Windsor Tech";
 $to = new SendGrid\Email("Windsor", "windsorjunior@hotmail.com");
-$content = new SendGrid\Content("text/html", $message);
+$content = new SendGrid\Content("text/html", "
+	Email: {$email}<br>
+	Name: {$name}<br>
+	Message: {$message}
+	");
 
 /*Send the mail*/
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
