@@ -31,6 +31,6 @@ $response = $sg->client->mail()->send()->post($mail);
 <!--Print the response-->
 <pre>
     <?php
-    "Thank You For Your Message!"
+    echo 'Thank You Mannn'
     ?>
 </pre>
