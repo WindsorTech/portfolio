@@ -12,11 +12,11 @@ $from = new SendGrid\Email($name, 'gotripps@gmail.com');
 $subject = "Portfolio Contact Form";
 $to = new SendGrid\Email("Windsor", "windsorjunior@hotmail.com");
 $content = new SendGrid\Content("text/html", "
-	Email: {$email}<br>
+	<b>Email:</b> {$email}<br>
 	<br>
-	Name: {$name}<br>
+	<b>Name:</b> {$name}<br>
 	<br>
-	Message: {$message}
+	<b>Message:</b> {$message}
 	");
 
 /*Send the mail*/
@@ -26,11 +26,7 @@ $sg = new \SendGrid($apiKey);
 
 /*Response*/
 $response = $sg->client->mail()->send()->post($mail);
+
+echo 'Thank You Mannn'
 ?>
-
-<!--Print the response-->
-
-    <?php
-    echo 'Thank You Mannn'
-    ?>
 
