@@ -27,6 +27,6 @@ $sg = new \SendGrid($apiKey);
 /*Response*/
 $response = $sg->client->mail()->send()->post($mail);
 
-echo 'Thank You Mannn'
+echo 'Thank You Man, appreciate it!'
 ?>
 
