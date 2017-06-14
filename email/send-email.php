@@ -27,6 +27,6 @@ $sg = new \SendGrid($apiKey);
 /*Response*/
 $response = $sg->client->mail()->send()->post($mail);
 
-
+echo 'Thanks for your message, I will get in touch with you as soon as possible!'
 ?>
 
