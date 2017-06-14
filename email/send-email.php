@@ -27,10 +27,11 @@ $sg = new \SendGrid($apiKey);
 /*Response*/
 $response = $sg->client->mail()->send()->post($mail); 
 
-$sucesso = "Thanks for your message, I will get in touch with you as soon as possible! <br>
-	<button class='btn btn-primary'><a href='/portfolio.html'>Return Home</a></button>";
 
-echo $sucesso;
+echo "<h1>Thank You".$name."for your message</h1>"
+echo "<br>"
+echo "<h2>I will get in touch as soon as possible"
+echo "<button class='btn btn-primary'><a href='/portfolio.html'>Return Home</a></button>"
 
 ?>
 
