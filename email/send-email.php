@@ -26,12 +26,14 @@ $sg = new \SendGrid($apiKey);
 
 /*Response*/
 $response = $sg->client->mail()->send()->post($mail); 
+?>
 
+<?php
 
-echo "<h1>Thank You".$name."for your message</h1>"
-echo "<br>"
-echo "<h2>I will get in touch as soon as possible"
-echo "<button class='btn btn-primary'><a href='/portfolio.html'>Return Home</a></button>"
+echo "<h1>Thank You for your message</h1>";
+echo "<br>";
+echo "<h2>I will get in touch as soon as possible";
+echo "<button class='btn btn-primary'><a href='/portfolio.html'>Return Home</a></button>";
 
 ?>
 
