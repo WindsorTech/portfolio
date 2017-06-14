@@ -25,12 +25,12 @@ $apiKey = ('SG.SyzllIF-RwyZ79pTBNkKgg.PTfULiDWSTV_yN-6v3OinGRQ1ohggvnF5Gu6co8qZ-
 $sg = new \SendGrid($apiKey);
 
 /*Response*/
-$response = $sg->client->mail()->send()->post($mail);
+$response = $sg->client->mail()->send()->post($mail); 
 
-echo "Thanks for your message, I will get in touch with you as soon as possible! <br>
-	<button class='btn btn-primary'><a href='/index.html'>Return Home</a></li>
-";
+$sucesso = "Thanks for your message, I will get in touch with you as soon as possible! <br>
+	<button class='btn btn-primary'><a href='/index.html'>Return Home</a></li>";
 
+echo $sucesso;
 
 ?>
 
