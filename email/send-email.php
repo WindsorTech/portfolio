@@ -51,9 +51,9 @@ $response = $sg->client->mail()->send()->post($mail);
 
     <div class="text-center">
           <ul class="nav nav-pills center-pills">
-            <li class="active"><a href="index.html">About</a></li>
-            <li class="active"><a href="portfolio.html">Portfolio</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="/index.html">About</a></li>
+            <li class="active"><a href="/portfolio.html">Portfolio</a></li>
+            <li class="active"><a href="/contact.html">Contact</a></li>
           </ul>
     </div>
 
@@ -92,7 +92,7 @@ $response = $sg->client->mail()->send()->post($mail);
             
             <div class="form-group">
               <div class="col-lg-12 send-btn">
-              <h3>Thank you for your message! I will get in touch as soon as possible!</h3>
+              <h3><b>Thank you for your message! I will get in touch as soon as possible!</b></h3>
               </div>
             </div>
         
