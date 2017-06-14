@@ -35,7 +35,7 @@ echo "<center><h1>Thank You for your message!</h1></center>";
 echo "<br>";
 echo "<center><h2>I will get in touch as soon as possible.</h2></center>";
 echo "<br>";
-echo "<center><h2><a href='/portfolio.html'>Click Here</a>to return to the page.</h2></center>";
+echo "<center><h2><a href='/portfolio.html'>Click Here</a> to return to the page.</h2></center>";
 
 ?>
 
