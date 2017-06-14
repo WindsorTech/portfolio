@@ -92,7 +92,7 @@ $response = $sg->client->mail()->send()->post($mail);
             
             <div class="form-group">
               <div class="col-lg-12 send-btn">
-              <h3><b>Thank you for your message! I will get in touch as soon as possible!</b></h3>
+              <h4><b>Thank you for your message, I will get in touch as soon as possible!</b></h4>
               </div>
             </div>
         
