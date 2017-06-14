@@ -31,7 +31,7 @@ $response = $sg->client->mail()->send()->post($mail);
 <?php
 
 echo "<br>";
-echo "<center><h1>Thank You for your message!</h1></center>";
+echo "<center><h1>Thank You ".$name." for your message!</h1></center>";
 echo "<br>";
 echo "<center><h2>I will get in touch as soon as possible.</h2></center>";
 echo "<br>";
