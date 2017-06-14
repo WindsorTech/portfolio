@@ -27,7 +27,9 @@ $sg = new \SendGrid($apiKey);
 /*Response*/
 $response = $sg->client->mail()->send()->post($mail);
 
-echo "<div class='result'> Thanks for your message, I will get in touch with you as soon as possible! </div>";
+echo "Thanks for your message, I will get in touch with you as soon as possible! <br>
+	<button class='btn btn-primary'><a href='index.html'>Return Home</a></li>
+";
 
 
 ?>
