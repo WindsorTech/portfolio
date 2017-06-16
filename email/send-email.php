@@ -7,10 +7,6 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-$keys = require 'emailkeys.js';
-
-$keys = $sendgridKey;
-
 /*Content*/
 $from = new SendGrid\Email($name, 'gotripps@gmail.com');
 $subject = "Portfolio Contact Form";
@@ -25,7 +21,7 @@ $content = new SendGrid\Content("text/html", "
 
 /*Send the mail*/
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
-$apiKey = ($keys);
+$apiKey = ('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');
 $sg = new \SendGrid($apiKey);
 
 /*Response*/
