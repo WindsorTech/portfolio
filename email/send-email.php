@@ -9,7 +9,7 @@ $message = $_POST['message'];
 
 $keys = require 'emailkeys.js';
 
-$keys = $keys.$sendgridKey;
+$keys = $sendgridKey;
 
 /*Content*/
 $from = new SendGrid\Email($name, 'gotripps@gmail.com');
