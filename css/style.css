@@ -90,3 +90,26 @@ table {
 	border-spacing: 60px;
 	border: 20px;
 }
+
+
+@media screen and (max-width: 375px) {
+
+	p {
+		font-size: 400px;
+	}
+
+	.title {
+		width: 100%;
+	}
+
+	#profile-pic {
+
+		width: 500px;
+	}
+
+	h1 {
+		font-size: 60px;
+	}
+
+
+}
