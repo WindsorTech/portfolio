@@ -95,11 +95,15 @@ table {
 @media screen and (max-width: 375px) {
 
 	p {
-		font-size: 28px;
+		font-size: 20px;
 	}
 
 	h1 {
 		font-size: 40px;
+	}
+
+	.container {
+		width: 100%;
 	}
 
 	.title {
@@ -112,7 +116,7 @@ table {
 	}
 
 	.img-rounded {
-		width: 80%;
+		width: 100%;
 	}
 
 
