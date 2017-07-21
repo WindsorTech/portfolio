@@ -99,15 +99,11 @@ table {
 	}
 
 	h1 {
-		font-size: 40px;
+		font-size: 35px;
 	}
 
 	.container {
-		width: 100%;
-	}
-
-	.title {
-		width: 100%;
+		width: 80%;
 	}
 
 	#profile-pic {
