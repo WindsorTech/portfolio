@@ -107,7 +107,8 @@ table {
 	}
 
 	.nav-pills {
-		width: 90%;
+		width: 100%;
+		align-items: center;
 	}
 
 	#profile-pic {
