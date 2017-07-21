@@ -31,7 +31,7 @@ h4 {
 }
 
 .title {
-	padding-right: 500px;
+	
 	font-size: 30px;
 }
 
@@ -113,6 +113,10 @@ table {
 
 	.container {
 		width: 95%;
+	}
+
+	.title {
+		width: 100%;
 	}
 
 	.look {
