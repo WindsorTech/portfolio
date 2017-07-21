@@ -114,6 +114,10 @@ table {
 		font-size: 20px;
 	}
 
+	.socialbuttons {
+		width: 130%;
+	}
+
 	.radical {
 		width: 100%;
 	}
