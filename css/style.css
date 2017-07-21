@@ -102,12 +102,16 @@ table {
 		font-size: 28px;
 	}
 
+	li {
+	margin-right: 30px;
+	}
+
 	.container {
 		width: 95%;
 	}
 
 	.socialbuttons {
-		width: 95%;
+		width: 100%;
 	}
 
 	.look {
