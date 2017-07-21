@@ -92,7 +92,7 @@ table {
 }
 
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
 
 	p {
 		font-size: 20px;
@@ -132,12 +132,11 @@ table {
 
 }
 
-@media screen (min-width: 376px) and (max-width: 667px) {
+@media only screen and (min-width: 376px) and (max-width: 667px) {
 
 	p {
 		font-size: 20px;
 	}
-
 
 	.container {
 		width: 90%;
