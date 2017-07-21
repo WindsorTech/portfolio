@@ -135,16 +135,17 @@ table {
 @media screen and (max-width: 667px) {
 
 	.container {
-		width: 95%;
+		width: 90%;
 	}
 
 	.profile-pic {
-		width: 100%;
-		height: 100%;
+		width: 80%;
+		height: 80%;
 	}
 
 	.img-rounded {
 		width: 100%;
+		height: 100%;
 	}
 
 	p {
