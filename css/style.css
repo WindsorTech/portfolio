@@ -95,7 +95,11 @@ table {
 @media screen and (max-width: 375px) {
 
 	p {
-		font-size: 400px;
+		font-size: 40px;
+	}
+
+	h1 {
+		font-size: 60px;
 	}
 
 	.title {
@@ -103,15 +107,10 @@ table {
 	}
 
 	#profile-pic {
-
-		width: 500px;
+		width: 100%;
 	}
 
-	h1 {
-		font-size: 100px;
-	}
-
-	img-rounded {
+	.img-rounded {
 		width: 80%;
 	}
 
