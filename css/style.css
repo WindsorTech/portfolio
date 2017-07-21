@@ -145,11 +145,13 @@ table {
 	.profile-pic {
 		width: 60%;
 		height: 60%;
+		margin: 0 auto; no vertical margin, auto horizontal margin
 	}
 
 	.img-rounded {
 		width: 80%;
 		height: 80%;
+		margin: 0 auto; no vertical margin, auto horizontal margin
 	}
 
 	.look {
