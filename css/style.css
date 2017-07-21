@@ -131,3 +131,19 @@ table {
 
 
 }
+
+@media screen and (max-width: 667px) {
+
+	.container {
+		width: 95%;
+	}
+
+	.img-rounded {
+		position: relative;
+	}
+
+	p {
+		float: right;
+	}
+
+}
