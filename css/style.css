@@ -103,7 +103,7 @@ table {
 	}
 
 	li {
-	margin-right: 10px;
+	margin-right: 5px;
 	}
 
 	.container {
@@ -112,14 +112,6 @@ table {
 
 	.look {
 		font-size: 20px;
-	}
-
-	.socialbuttons {
-		width: 130%;
-	}
-
-	.radical {
-		width: 100%;
 	}
 
 	.profile-pic {
