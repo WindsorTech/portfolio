@@ -138,6 +138,11 @@ table {
 		font-size: 20px;
 	}
 
+	h1 {
+		font-size: 30px;
+		display: inline-block;
+	}
+
 	.container {
 		width: 95%;
 	}
