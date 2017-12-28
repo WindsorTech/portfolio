@@ -118,7 +118,7 @@ $response = $sg->client->mail()->send()->post($mail);
     </div>
 
     <div class="footer"> <!--FOOTER-->
-    Copyright 2017 - Windsor Edeling
+    Copyright 2018 - Windsor Edeling
     </div>
 </body>
 </html>
