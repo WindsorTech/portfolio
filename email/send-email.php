@@ -109,7 +109,7 @@ $response = $sg->client->mail()->send()->post($mail);
         <div class="socialbuttons well">
           <center>Let's Connect</center>
           <hr>
-          <center><a href="https://www.linkedin.com/in/windsoredeling" target="_blank"> <img src="/images/linkedin-icon.png" width="50" height="50"></a> <a href="https://github.com/windsor80" target="_blank"><img src="/images/github-icon.png" width="50" height="50"></a> <a href="https://facebook.com/windsor.roberto" target="_blank"><img src="/images/facebook-icon.png" width="50" height="50"></a></center>
+          <center><a href="https://www.linkedin.com/in/windsoredeling" target="_blank"> <img src="/images/linkedin-icon.png" width="50" height="50"></a> <a href="https://github.com/windsortech" target="_blank"><img src="/images/github-icon.png" width="50" height="50"></a> <a href="https://facebook.com/windsor.roberto" target="_blank"><img src="/images/facebook-icon.png" width="50" height="50"></a></center>
         </div>
       </div>
 
