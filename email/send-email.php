@@ -49,7 +49,7 @@ $response = $sg->client->mail()->send()->post($mail);
 
     <div> <!-- NAVBAR -->
         <div class="navbar text-center">
-          <h2 class="center-pills">Windsor Roberto Edeling</h2>
+          <h2 class="center-pills">WindsorTech</h2>
         </div>
     </div> <!-- NAVBAR -->
 
