@@ -40,6 +40,12 @@ $response = $sg->client->mail()->send()->post($mail);
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/windsor-logo.ico" type="image/x-icon">
 
+  <!-- Facebook Share Image -->
+  <meta property="og:image" content="https://windsor-portfolio.herokuapp.com/images/windsortech-logo.jpg"> 
+
+  <!-- Meta Tag Description -->
+  <meta name="description" content="A portfolio with all the cool Apps built by WindsorTech">
+
   <link rel="stylesheet" type="text/css" href="/css/style.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
