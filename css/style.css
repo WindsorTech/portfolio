@@ -154,6 +154,7 @@ table {
 
 	.container {
 		width: 95%;
+		overflow: hidden; 
 	}
 
 	.profile-pic {
