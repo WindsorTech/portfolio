@@ -38,9 +38,14 @@ hr {
     justify-content: center;
 }
 
-.title {
-	
+.title {	
 	font-size: 30px;
+}
+
+.title-app {
+	margin-top: -20px;
+	display: flex;
+    justify-content: center;
 }
 
 .footer {
