@@ -115,6 +115,11 @@ table {
 		display: inline-block;
 	}
 
+	h1 {
+		font-size: 20px;
+		display: inline-block;
+	}
+
 	li {
 	margin-right: 15px;
 	margin-left: 15px;
